@@ -37,13 +37,12 @@ button:focus{outline: 0;}
 /********** baner ***************/
 
 .baner{
-    background-image: url(../img/baner.jpg);
+    background-image: url(../images/baner.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     overflow: hidden;
     min-height: 400px;
     max-height: 400px;
-display:none;
 }
 .baner .item .baner-content{text-transform: uppercase;}
 .baner .item .baner-content .baner-prodc-subname h3{
@@ -570,7 +569,7 @@ display:none;
 .testmonial .jumbotron .testmonial-person::before{
     content: '';
     position: absolute;
-    background-image: url('../img/testmonial-img/icon.png');
+    background-image: url('../images/testmonial-img/icon.png');
     padding: 25px 10px;
     background-repeat: no-repeat;
     bottom: 44%;
@@ -706,7 +705,7 @@ display:none;
 
 /********************** page-baner section ************************/
 .page-baner{
-    background-image: url('../img/bg-baners.jpg');
+    background-image: url('../images/bg-baners.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -869,7 +868,8 @@ display:none;
   /* .testmonial .item .testmonial-content::after{
     position: absolute;
         content: "";
-        background-image: url(../img/icon.png);
+        background-image: url(../images/icon.png);
+
          width: 100%;
         height: 100px;
         background-repeat: no-repeat;
@@ -917,7 +917,7 @@ display:none;
        /* .testmonial .item .testmonial-content::after{
          position: absolute;
       content: "";
-      background-image: url(../img/icon.png);
+      background-image: url(../images/icon.png);
       width: 100%;
       height: 100px;
       background-repeat: no-repeat;
@@ -941,7 +941,7 @@ display:none;
     /* .testmonial .item .testmonial-content::after{
       position: absolute;
    content: "";
-   background-image: url(../img/icon.png);
+   background-image: url(../images/icon.png);
    width: 100%;
       height: 40px;
    background-repeat: no-repeat;
@@ -2237,7 +2237,7 @@ aside .tags ul li a:hover{
 
 
   .error-404{
-    background: url("../img/notfound404/error-7.jpg") no-repeat ;
+    background: url("../images/notfound404/error-7.jpg") no-repeat ;
     background-size:cover;
   background-position: center center;
   height:754px;
