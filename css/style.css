@@ -43,6 +43,7 @@ button:focus{outline: 0;}
     overflow: hidden;
     min-height: 400px;
     max-height: 400px;
+display:none ;
 }
 .baner .item .baner-content{text-transform: uppercase;}
 .baner .item .baner-content .baner-prodc-subname h3{
@@ -705,9 +706,9 @@ button:focus{outline: 0;}
 
 /********************** page-baner section ************************/
 .page-baner{
-    background-image: url('../img/bg-baners.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+background-color: #eeeeee;
 }
 
 .page-baner .page-baner-content h5{
